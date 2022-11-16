@@ -1,0 +1,48 @@
+:root {
+    --textBlack: #000;
+    --textWhite: #fff
+}
+
+.quoteBox {
+    display:flex;
+    flex-direction: column;
+    margin-inline: 100px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 40px;
+}
+
+.quoteContainer {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.quoteCategory {
+    padding-inline: 2%;
+    text-align: left;
+    color: var(--textWhite);
+    font-weight: 500;
+}
+
+.quoteText {
+    padding-inline: 2%;
+    text-align: left;
+    color: var(--textWhite);
+    font-weight: 400;
+}
+
+.tagAuthorBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2%;
+    border: 2px solid var(--textBlack);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tags {
+    display: flex;
+}
+
+.authorText {
+    font-weight: 400;
+}
