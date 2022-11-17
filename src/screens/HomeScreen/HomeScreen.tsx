@@ -24,6 +24,7 @@ const HomeScreen = () => {
     return (
         <div>
             <h1>SKYBOUND</h1>
+            {error && <h1>{error.message}</h1>}
             {loading ? (<h1>loading....</h1>):(
                 quotes.map((quote:QuoteCat,index:number) => {
                     return (
